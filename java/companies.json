@@ -1,0 +1,50 @@
+[
+  {
+      "name" : "Ромашка",
+      "address" : "ул. Ленина, 34",
+      "phoneNumber" : "4993848493",
+      "INN" : "7718054301",
+      "OGRN" : "1107746213046",
+      "foundationDate" : "17/01/1998",
+      "securities" :
+        {
+          "id" : "123456",
+          "name" : "акция",
+          "expirationDate" : "05.03.2022",
+          "ownerOfTheSecurity": "ООО Альтхаус",
+          "currency" : "USD"
+        }
+  },
+  {
+    "name": "Ромашка",
+    "address": "ул. Путина, 33",
+    "phoneNumber": "4993456576",
+    "INN": "7732079410",
+    "OGRN": "1077758696344",
+    "foundationDate" : "15/02/2001",
+    "securities" :
+      {
+        "id" : "654321",
+        "name" : "облигация",
+        "expirationDate" : "04.05.2023",
+        "ownerOfTheSecurity": "ООО Мой Мир",
+        "currency" : "RU"
+      }
+  },
+  {
+    "name": "Азот",
+    "address": "ул. 800-Летия, 23",
+    "phoneNumber": "4993454354",
+    "INN": "7726000797",
+    "OGRN": "5067746184017",
+    "foundationDate" : "12/03/205",
+    "securities" :
+      {
+        "id" : "098726",
+        "name" : "акция",
+        "expirationDate" : "06.11.1997",
+        "ownerOfTheSecurity": "ООО Лукойл",
+        "currency" : "EU"
+      }
+  }
+]
