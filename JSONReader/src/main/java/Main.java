@@ -106,7 +106,7 @@ public class Main {
     public static void printCompaniesAfterDate(ArrayList<Company> companies) {
         String temp;
         DateValidator dv1 = new DateValidator(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
-        DateValidator dv2= new DateValidator(DateTimeFormatter.ofPattern("dd.MM,yyyy"));
+        DateValidator dv2= new DateValidator(DateTimeFormatter.ofPattern("dd.MM,yy"));
         DateValidator dv3 = new DateValidator(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         DateValidator dv4 = new DateValidator(DateTimeFormatter.ofPattern("dd/MM/yy"));
         LocalDate date = null;
